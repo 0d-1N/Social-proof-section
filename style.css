@@ -1,2 +1,80 @@
-if u have if u can u cand do it u know that mis
-console.log("")
+:root{
+   --Very-Dark-Magenta: hsl(300, 43%, 22%);
+   --Soft-Pink: hsl(333, 80%, 67%);
+   --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+   --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+   --White: hsl(0, 0%, 100%);
+
+}
+
+*{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    min-height: 100dvh;
+    background-image: url(images/bg-pattern-top-mobile.svg),url(images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: left 0 top 0,right 0 bottom 0;
+    display: grid;
+    place-items: center;
+}
+.container {
+    margin-top: 20px;
+     width: 380px;
+
+}
+.description-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.description-heading{
+    text-align: center;
+    font-size: 30px;
+    width: 75%;
+}
+.description-paragraph{
+    margin-top: 10px;
+    text-align: center;
+    width: 85%;
+}
+
+
+.rating-container {
+    border: 2px solid green;
+    padding: 10px;
+}
+
+
+.rating-review{
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+.stars{
+    border: 5px solid rosybrown;
+    margin-top: 10px;
+  height: 120px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+
+.stars img{
+display: block;
+ width: 20px;
+ height: 20px;
+ align-content: space-between;
+}
+
+
+
